@@ -3,7 +3,7 @@ import json
 import os
 from openai import OpenAI
 
-client = OpenAI(api_key="sk-XXXXXXXXXXXXXXXXXXXXXXXX")
+client = OpenAI(api_key="enter your key here")
 
 @st.cache_data
 def fetch_questions(text_content, quiz_level):
